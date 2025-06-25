@@ -396,11 +396,72 @@ footer {
         </section>
 
         <section id="tips" class="tips">
-            <div class="container">
-                <h2>13 Essential Tips for UPSC 2024</h2>
-                <div class="tips-grid"></div>
-            </div>
-        </section>
+    <div class="container">
+        <h2>13 Essential Tips for UPSC 2024</h2>
+        <div class="tips-grid">
+    
+</div>
+    </div>
+</section>
+<style>
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.4rem;
+    margin-top: 2.3rem;
+    border-left: 6px solid #6366f1;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    transition: box-shadow 0.2s;
+}
+.tips-card h2 {
+    text-align: left;
+    font-size: 1.55rem;
+    margin-bottom: 1.6rem;
+    color: #4338ca;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    padding-left: 0.2em;
+}
+.tips-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tips-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.9rem;
+    font-size: 1.06rem;
+    color: #23272f;
+    background: transparent;
+    border-radius: 6px;
+    padding: 0.55rem 0.5rem 0.55rem 0.2rem;
+    box-shadow: none;
+    transition: background 0.2s;
+}
+.tips-list li:hover {
+    background: #edeef3;
+}
+
+@media (max-width: 700px) {
+    .tips-card {
+        padding: 1rem 0.2rem 1rem 0.5rem;
+        max-width: 98vw;
+    }
+    .tips-card h2 {
+        font-size: 1.1rem;
+    }
+    .tips-list li {
+        font-size: 0.97rem;
+        padding: 0.5rem 0.2rem 0.5rem 0.1rem;
+    }
+}
+</style>
+
 
         <section id="resources" class="resources">
             <div class="container">
@@ -429,28 +490,130 @@ footer {
         </section>
 
         <section id="feedback" class="feedback">
-            <div class="container">
-                <div class="feedback-header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <div class="container">
+        <div class="feedback-card">
+            <div class="feedback-header">
+                <div class="feedback-avatar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                       
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                     </svg>
-                    <h2>Your Feedback Matters</h2>
-                    <p>Help us improve your preparation experience</p>
                 </div>
-                <form id="feedback-form" class="feedback-form">
-                    <div class="form-group">
-                        <label for="feedback">Share Your Thoughts</label>
-                        <textarea id="feedback" rows="4" placeholder="Your feedback helps us serve you better..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
-                </form>
+                <h2>Your Feedback Matters</h2>
+                <p>Help us improve your preparation experience</p>
             </div>
-        </section>
+            <form id="feedback-form" class="feedback-form">
+                <div class="form-group">
+                    <label for="feedback">Share Your Thoughts</label>
+                    <textarea id="feedback" rows="4" placeholder="Your feedback helps us serve you better..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary feedback-btn">Submit Feedback</button>
+                <div id="feedback-success" class="feedback-success" style="display:none;">Thank you for your feedback!</div>
+            </form>
+        </div>
+    </div>
+</section>
+<style>
+.feedback-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(79,70,229,0.10);
+    padding: 2.5rem 2rem 2rem 2rem;
+    max-width: 480px;
+    margin: 2.5rem auto;
+    border: 1px solid #ececec;
+    transition: box-shadow 0.2s;
+}
+.feedback-card:hover {
+    box-shadow: 0 8px 32px rgba(79,70,229,0.13);
+}
+.feedback-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.feedback-header h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 0.3rem;
+    color: #4f46e5;
+}
+.feedback-header p {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+.feedback-form label {
+    font-size: 1rem;
+    color: #1f2937;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+.feedback-form textarea {
+    border-radius: 10px;
+    border: 1.5px solid #d1d5db;
+    padding: 0.9rem 1.1rem;
+    font-size: 1.05rem;
+    resize: vertical;
+    transition: border 0.2s, box-shadow 0.2s;
+    background: #f9fafb;
+}
+.feedback-form textarea:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px #a5b4fc44;
+}
+.feedback-btn {
+    background: linear-gradient(90deg, #4f46e5 60%, #6366f1 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(79,70,229,0.07);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.feedback-btn:hover {
+    background: linear-gradient(90deg, #6366f1 0%, #4f46e5 100%);
+    box-shadow: 0 4px 16px rgba(79,70,229,0.12);
+}
+.feedback-success {
+    margin-top: 1.1rem;
+    color: #22c55e;
+    text-align: center;
+    font-size: 1.08rem;
+    font-weight: 500;
+    display: none;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const feedbackForm = document.getElementById('feedback-form');
+    const feedbackSuccess = document.getElementById('feedback-success');
+    feedbackForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackSuccess.style.display = 'block';
+        feedbackForm.reset();
+        setTimeout(() => {
+            feedbackSuccess.style.display = 'none';
+        }, 3500);
+    });
+});
+</script>
+
     </main>
 
     <footer>
         <div class="container">
-            <p>© 2024 Akki's Civil Services Hub. All rights reserved.</p>
+            <p> 2024 Akki's Civil Services Hub. All rights reserved.</p>
         </div>
     </footer>
 
