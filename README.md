@@ -31,22 +31,6 @@
 
 ---
 
-## 📝 13 Essential UPSC Tips
-- Start early and plan ahead
-- Master both Prelims and Mains
-- Analyze previous years’ papers
-- Make notes from newspapers
-- Build a realistic timetable
-- Revise regularly
-- Practice with mock tests
-- Practice answer writing
-- Prioritize your health
-- Join study groups
-- Use trusted resources
-- Manage your time wisely
-- Stay positive and motivated
-
----
 
 ## 🤝 Contribute & Customize
 - **Contribute:** Fork, branch, and open a pull request—beginners welcome!
@@ -68,18 +52,6 @@ Hi, I'm Akshitha Reddy! This is my first web dev project—feedback and contribu
 ## 📄 License
 MIT — Free for personal and commercial use.
 
-:white_large_square: **Understand the syllabus:** Study both Prelims and Mains syllabus thoroughly.  
-:white_large_square: **Analyze previous papers:** Review past years' question papers for trends.  
-:white_large_square: **Read newspapers:** Stay updated and make notes regularly.  
-:white_large_square: **Make a study plan:** Create a realistic, balanced timetable.  
-:white_large_square: **Revise regularly:** Schedule weekly and monthly revisions.  
-:white_large_square: **Practice MCQs:** Attempt mock tests and practice questions.  
-:white_large_square: **Answer writing:** Practice answer writing for Mains from the start.  
-:white_large_square: **Stay healthy:** Prioritize mental and physical health.  
-:white_large_square: **Join discussions:** Participate in study groups and forums.  
-:white_large_square: **Use quality resources:** Prefer standard books and reliable online material.  
-:white_large_square: **Time management:** Allocate time wisely for each subject.  
-:white_large_square: **Stay motivated:** Keep your goals clear and stay positive!  
 
 ---
 
