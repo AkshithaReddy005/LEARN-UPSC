@@ -42,15 +42,10 @@
 ## 🙋‍♀️ Author
 Hi, I'm Akshitha Reddy! This is my first web dev project—feedback and contributions are welcome.
 
----
 
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
 
 ## 📧 Contact
 For any queries, reach out via [GitHub Issues](https://github.com/AkshithaReddy005/LEARN-UPSC/issues).
