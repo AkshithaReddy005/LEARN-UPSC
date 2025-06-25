@@ -44,16 +44,6 @@ Hi, I'm Akshitha Reddy! This is my first web dev project—feedback and contribu
 
 ---
 
-## 📸 Preview
-![LEARN-UPSC Screenshot](screenshot.png)
-
----
-
-## 📄 License
-MIT — Free for personal and commercial use.
-
-
----
 
 ---
 
